@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1E5622A01DC83578002B7DCF /* CustomAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E56229F1DC83578002B7DCF /* CustomAlertView.swift */; };
+		1E781CC21DC885E400C14447 /* Dismiss.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E781CC11DC885E400C14447 /* Dismiss.png */; };
+		1E781CC51DC88F0600C14447 /* button_clear.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E781CC31DC88F0600C14447 /* button_clear.png */; };
+		1E781CC61DC88F0600C14447 /* OKPhoto.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1E781CC41DC88F0600C14447 /* OKPhoto.jpg */; };
 		1EF324361DC0B97F0022E7D4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EF324351DC0B97F0022E7D4 /* AppDelegate.swift */; };
 		1EF324381DC0B97F0022E7D4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EF324371DC0B97F0022E7D4 /* ViewController.swift */; };
 		1EF3243B1DC0B97F0022E7D4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1EF324391DC0B97F0022E7D4 /* Main.storyboard */; };
@@ -16,6 +20,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1E56229F1DC83578002B7DCF /* CustomAlertView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomAlertView.swift; sourceTree = "<group>"; };
+		1E781CC11DC885E400C14447 /* Dismiss.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Dismiss.png; sourceTree = "<group>"; };
+		1E781CC31DC88F0600C14447 /* button_clear.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_clear.png; sourceTree = "<group>"; };
+		1E781CC41DC88F0600C14447 /* OKPhoto.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = OKPhoto.jpg; sourceTree = "<group>"; };
 		1EF324321DC0B97F0022E7D4 /* ThrowBall.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ThrowBall.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1EF324351DC0B97F0022E7D4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1EF324371DC0B97F0022E7D4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -57,12 +65,16 @@
 			isa = PBXGroup;
 			children = (
 				1EF324471DC0BDAC0022E7D4 /* ball.png */,
+				1E781CC31DC88F0600C14447 /* button_clear.png */,
+				1E781CC41DC88F0600C14447 /* OKPhoto.jpg */,
+				1E781CC11DC885E400C14447 /* Dismiss.png */,
 				1EF324351DC0B97F0022E7D4 /* AppDelegate.swift */,
 				1EF324371DC0B97F0022E7D4 /* ViewController.swift */,
 				1EF324391DC0B97F0022E7D4 /* Main.storyboard */,
 				1EF3243C1DC0B97F0022E7D4 /* Assets.xcassets */,
 				1EF3243E1DC0B97F0022E7D4 /* LaunchScreen.storyboard */,
 				1EF324411DC0B97F0022E7D4 /* Info.plist */,
+				1E56229F1DC83578002B7DCF /* CustomAlertView.swift */,
 			);
 			path = ThrowBall;
 			sourceTree = "<group>";
@@ -128,6 +140,9 @@
 			files = (
 				1EF324401DC0B97F0022E7D4 /* LaunchScreen.storyboard in Resources */,
 				1EF3243D1DC0B97F0022E7D4 /* Assets.xcassets in Resources */,
+				1E781CC21DC885E400C14447 /* Dismiss.png in Resources */,
+				1E781CC51DC88F0600C14447 /* button_clear.png in Resources */,
+				1E781CC61DC88F0600C14447 /* OKPhoto.jpg in Resources */,
 				1EF324481DC0BDAC0022E7D4 /* ball.png in Resources */,
 				1EF3243B1DC0B97F0022E7D4 /* Main.storyboard in Resources */,
 			);
@@ -140,6 +155,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1E5622A01DC83578002B7DCF /* CustomAlertView.swift in Sources */,
 				1EF324381DC0B97F0022E7D4 /* ViewController.swift in Sources */,
 				1EF324361DC0B97F0022E7D4 /* AppDelegate.swift in Sources */,
 			);
